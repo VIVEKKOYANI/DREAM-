@@ -1,0 +1,66 @@
+header{
+    height: 70px;
+    line-height: 70px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 3;
+}
+
+.logo_box{
+    display: inline-block;
+    width: 180px;
+    margin-top: 15px;
+}
+
+.right_user_info{
+    float: right;
+}
+
+.right_user_info ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.right_user_info ul li {
+    float: left;
+}
+
+.right_user_info ul li span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.right_user_info ul li span {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.invite{
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 32px;
+}
+
+.login {
+    margin-right: 20px;
+}
+
+.right_user_info ul li a {
+    display: inline-block;
+    color: #fff;
+}
+
+.login_register a {
+    border: solid 1px #fff;
+    padding: 0 16px;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+}
